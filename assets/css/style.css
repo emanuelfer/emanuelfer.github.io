@@ -13,6 +13,7 @@ body{
     height: 100%;
     display: flex;
     flex-direction: row;
+    min-width: 327px;
 }
 
 
@@ -172,9 +173,14 @@ footer{
     }
 }
 
-@media screen and (max-width: 740px){
+@media screen and (min-width: 360px) and (max-width: 739px) {
     .painel-direita{
-        min-height: 1240px;
+        min-height: 1210px;
     }
 }
 
+@media screen and (min-width: 327px) and (max-width: 359px){
+    .painel-direita{
+        min-height: 1800px;
+    }
+}
