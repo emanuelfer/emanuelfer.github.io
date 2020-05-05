@@ -175,12 +175,12 @@ footer{
 
 @media screen and (min-width: 360px) and (max-width: 739px) {
     .painel-direita{
-        min-height: 1210px;
+        min-height: 1240px;
     }
 }
 
 @media screen and (min-width: 327px) and (max-width: 359px){
     .painel-direita{
-        min-height: 1800px;
+        min-height: 1830px;
     }
 }
